@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Onyx.Gerd": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ONYX_GERD_TARGET_NAMESPACES": "gerd,onyx,ianvs",
+        "DOTNET_ENVIRONMENT": "Development",
+        "ONYX_GERD_HAVOC_LEVEL": "2"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
