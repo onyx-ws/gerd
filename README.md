@@ -11,7 +11,7 @@ Source [Wikipedia](https://en.wikipedia.org/wiki/Chaos_engineering)
  We belive that you should setup chaos in your dev/test/prod clusters/namespaces. **Don't do that in prod only - please!**
 
 ## Setting up Gerd in your k8s cluster
-The k8s deployment objects for Gerd k8s deployment are defind in the [deployemnt.yml](deployemnt.yml) file. Which does the following:
+The k8s deployment objects for Gerd k8s deployment are defind in the [deployment.yml](deployment.yml) file. Which does the following:
 
 ### Create a Service Account
 Create a service account to be used by Gerd for calling your cluster's API server
