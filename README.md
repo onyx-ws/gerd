@@ -74,7 +74,7 @@ spec:
       serviceAccountName: gerd
       containers:
       - name: onyx-gerd
-        image: onyxgerd20200809104133.azurecr.io/onyxgerd:latest
+        image: onyxws/gerd:latest
         ports:
         - containerPort: 80
 ```
