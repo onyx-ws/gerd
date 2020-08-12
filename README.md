@@ -1,2 +1,2 @@
-# clotho
-chaos monkey
+﻿# Gerd
+Gerd (قرد) is Arabic for monkey
