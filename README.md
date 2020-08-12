@@ -79,7 +79,7 @@ spec:
         - containerPort: 80
 ```
 ### Embrace chaos
-By default; Gerd requires opt-in to chaos. This can be done by updating a pod's deployment definition to include the 'onyx.gerd.enabled' label as part of the deployment spec as in the below example.
+By default; Gerd requires opt-in to chaos. This can be done by updating a pod's deployment definition to include the `onyx.gerd.enabled` label as part of the deployment spec as in the below example.
 ```
 apiVersion: apps/v1
 kind: Deployment
